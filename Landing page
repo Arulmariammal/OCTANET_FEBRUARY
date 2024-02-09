@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exciting Landing Page</title>
+    <style>
+        body {
+            font-family: Comic Sans MS;
+            margin: 10;
+            padding: 10;
+            
+            background color:black;
+            color:royalblue;
+           
+        }
+
+        header {
+            background-color: #00563B;
+            padding: 7px;
+            text-align: center;
+            color: white;
+        }
+
+        h1 {
+            margin: 10;
+            font-size: 10;
+        }
+        h2{
+        text-color:#afb1b6;
+        }
+
+        p {
+            font-size: 1.2em;
+            margin-top: 10px;
+            
+        }
+
+        nav {
+            text-align: center;
+            padding: 10px;
+            background-color:#01796F;
+            
+        }
+
+        nav a {
+            color: #333;
+            text-decoration: none;
+            margin: 0 10px;
+            padding:10px;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #7094db;
+            opacity:1;
+            padding:10px;
+        }
+
+        section {
+            position: relative;
+            text-align: center;
+            padding: 40px;
+            flex-wrap: wrap;
+            color: #fff;
+        }
+
+        .section-content {
+            position: relative;
+            z-index: 1;
+        }
+
+        .section-background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            background-position: center;
+            filter: brightness(0.6);
+        }
+
+        .column {
+            flex: 1;
+            text-align: center;
+            padding: 40px;
+            margin: 20px;
+            border-radius: 10px;
+            background-color: rgba(255, 255, 255, 0.8);
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .column:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+        }
+
+        h2 {
+            color:#151E3D;
+        }
+
+        footer {
+            background-color: #00563B;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            color: #fff;
+        }
+
+        p.footer-text {
+            margin: 0;
+            font-size: 0.8em;
+        }
+
+        .social-icons {
+            margin-top: 20px;
+        }
+
+        .social-icons a {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            background-color: #fff;
+            border-radius: 50%;
+            line-height: 40px;
+            margin: 0 10px;
+            transition: background-color 0.3s;
+        }
+
+        .social-icons a:hover {
+            background-color: #ecf0f1;
+        }
+
+        input[type="text"] {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 60%;
+            margin: 20px auto;
+            display: block;
+            font-size: 1em;
+        }
+
+        button {
+            background-color: #2e457d;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-family:Georgia;
+            font-size: 1em;
+           
+        }
+        .container{
+         text-align: center;
+         margin-bottom:10px;
+         }
+
+        button:hover {
+            background-color:#7a7ac2;
+        }
+        .nature1 {
+    background-image: url('https://static.sadhguru.org/d/46272/1633199491-1633199490440.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; 
+    position: relative; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+.nature2 {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE7e_b2Fm9Jd2m9QSJDQ20miOei5LEl6bgvw&usqp=CAU.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; 
+    position: relative; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+.nature3{
+    background-image: url('https://images.unsplash.com/photo-1607992922515-7e38329e65d4?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmF0dXJlJTIwaW1hZ2VzfGVufDB8fDB8fHww.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; 
+    position: relative; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+.contact {
+    background-image: url('https://rukminim2.flixcart.com/image/850/1000/poster/t/c/s/save-trees-save-nature-psu360002939-small-original-imaekkpws5uvrqyy.jpeg?q=90&crop=false.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; 
+    position: relative;  
+}
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to a world of endless possibilities</h1>
+        <p>Aspire to Inspire before we expire</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Explore</a>
+        
+        <a href="#">Contact</a>
+    </nav>
+
+    <section class="nature1">
+        <div class="section-background"></div>
+        <div class="section-content">
+            
+            <p>Nature is a vast and diverse realm, encompassing a wide range of landscapes, flora, fauna, and phenomena. Here are some aspects of nature:
+
+Landscapes: From towering mountains to expansive oceans, serene forests to arid deserts, nature's landscapes are varied and breathtaking.
+
+</p>
+        </div>
+    </section>
+
+    <section class="nature2">
+        <div class="section-background"></div>
+        <div class="section-content">
+            
+            <p>Flora: Nature is adorned with a plethora of plant life, including trees, flowers, shrubs, and grasses, each contributing to the beauty and balance of ecosystems.
+
+Fauna: Animals of all shapes and sizes inhabit the earth, from tiny insects to majestic mammals, colorful birds to elusive sea creatures.</p>
+        </div>
+    </section>
+    <section class="nature3">
+        <div class="section-background"></div>
+        <div class="section-content">
+            
+            <p>Weather: Nature's elements include ever-changing weather patterns such as sunshine, rain, snow, wind, and storms, each playing a vital role in shaping the environment.
+
+Seasons: The cycle of seasons—spring, summer, autumn, and winter—brings about distinct changes in nature, from blooming flowers and buzzing insects to falling leaves and snow-covered landscapes.</p>
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="section-background"></div>
+        <div class="section-content">
+            <h2><strong>Connect</strong></h2>
+            <p>Join a community of like-minded individuals. Share, learn, and grow together!</p>
+            <p>Gmail: xyzcompanies.com</p>
+            <p>Phone: XXXXXXXXXX</p>
+        </div>
+    </section>
+
+    <div class="social-icons">
+        <a href="https://www.facebook.com/facebook/" title="Facebook"><img src="https://i.pinimg.com/564x/42/81/f1/4281f1ab348f8e71eefba010d277daeb.jpg" style="margin-left:10px; margin-top:10px; width:20px; height:20px;" alt="Facebook" ></a>
+        <a href="https://twitter.com/" title="Twitter"><img src="https://th.bing.com/th/id/OIP.DAwtOg9F_1ynGTdzvXvjnAAAAA?rs=1&pid=ImgDetMain" style="margin-left:7px; margin-top:10px; width:30px; height:20px;" alt="Twitter" ></a>
+        <a href="https://www.instagram.com/" title="Instagram"><img src="https://i.pinimg.com/736x/30/12/94/30129480e943e5b3e334394168ae16a2.jpg" style="margin-left:10px; margin-top:10px; width:20px; height:20px;" alt="Instagram" ></a>
+        <a href="https://www.linkedin.com/feed/" title="LinkedIn"><img src="https://i.pinimg.com/564x/30/c4/53/30c453b7f5fbdb09ea0cb42a5dc7a6e5.jpg" style="margin-left:10px; margin-top:10px; width:20px; height:20px;" alt="Linkedin" ></a>
+    </div>
+
+    <form action="#" method="get">
+        <input style = "font-family:Georgia;" type="text" name="search" placeholder="Search...">
+        <div class="container">
+    <button>SEARCH</button>
+</div>
+
+    </form>
+    <script>
+        document.getElementById("myButton").addEventListener("click", function() {
+            alert("Button clicked!");
+        });
+    </script>
+    <footer>
+        <p class="footer-text">&copy; Thank you for visiting !!</p>
+    </footer>
+
+</body>
+</html>
